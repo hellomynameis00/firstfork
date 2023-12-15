@@ -10,6 +10,12 @@
     background-size: cover;
 }
 
+/* .bg-img{
+    background-image: url(photo.jpg);
+    height: 100vh;
+    background-size: cover;
+} */
+
 .btn_one i{
     color: white;
     font-size: 30px;
@@ -124,4 +130,10 @@
 
 #check:checked ~ .sidebar_menu .btn_two i{
     opacity: 1;
+}
+
+@media (max-width : 1260px){
+    .main_box{
+        background-position:right center ;
+}
 }
